@@ -1,11 +1,14 @@
 from bot import Board
+import input
 
 
 def main():
     board = Board()
-    board.load("      e  w   fwwaqffewsfe fasa lewweqlcw  wadgqts    a pa m   lqsalfd   efqe    die   adf  ")
+    board_state = input.read_image('test.png')
+    print('Board State read: ' + board_state)
+    board.load(board_state)
     board.print()
-    print("~~~~~~~~~~SOLUTION~~~~~~~~~~")
+    print("----------SOLUTION----------")
     board.backtrack()
 
 
