@@ -14,6 +14,8 @@ The user can input the state of the board through a single string describing the
 The preferred (and faster) method is to do a screenshot of the game's window in Fullscreen mode and input that to the program. 
 
 ## Example output
+The solution provided is printed in reverse order (the first move to be done is the last one displayed).
+
     Processing image...
     Board State read: XXXXcXwleesfXXaeXffwXXssXaXXpXXaXawaeqqfXetXegfXdqXwddfafqXmXXiXXqXlwXXalfXewXXasdwlwXeXXXX
           [0, 0, 0, 0, 11, 0]
